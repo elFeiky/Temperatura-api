@@ -1,0 +1,18 @@
+@hostname = localhost
+@port = 3000
+@host = http://{{hostname}}:{{port}}
+
+
+GET {{host}}/api/clima?ciudad=Lima HTTP/1.1
+
+###
+
+GET {{host}}/api/clima?ciudad=Lima HTTP/1.1
+
+###
+
+GET {{host}}/api/clima?ciudad=Berlin HTTP/1.1
+
+###
+
+GET {{host}}/api/clima?ciudad=AtlantidaCity HTTP/1.1
