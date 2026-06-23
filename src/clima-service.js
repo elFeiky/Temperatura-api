@@ -37,6 +37,6 @@ const getClima = async (ciudad) => {
         }
         throw new Error('Error al obtener datos del clima: ' + error.message);
     }
-        }
+}
 
     module.exports = { getClima };
